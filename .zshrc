@@ -1,6 +1,11 @@
 # Aliases
 ## Config
-alias config='/usr/bin/git --git-dir=$HOME/.config/ --work-tree=$HOME'
+alias dotfiles='/usr/bin/git --git-dir=$HOME/.config/ --work-tree=$HOME'
+
+## Files
+alias home="cd ~/"
+alias ..="cd .."
+alias ...="cd ../.."
 
 ## GitHub
 alias ga="git add $*"
@@ -17,4 +22,3 @@ export EDITOR=vim
 
 # Last line
 eval "$(starship init zsh)"
-vim .zshrc
